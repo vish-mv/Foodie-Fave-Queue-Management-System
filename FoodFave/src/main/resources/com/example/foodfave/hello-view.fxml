@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="235.0" layoutY="14.0" text="Foodie Fave">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="64.0" fitWidth="68.0" layoutX="26.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../cashier-icon-20.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="68.0" layoutX="102.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../cashier-icon-20.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="68.0" layoutX="185.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../cashier-icon-20.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="17.0" layoutX="-6.0" stroke="BLACK" strokeType="INSIDE" width="608.0" />
+      <Button layoutX="32.0" layoutY="131.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="32.0" layoutY="187.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="108.0" layoutY="131.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="108.0" layoutY="188.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="108.0" layoutY="245.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="191.0" layoutY="131.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="191.0" layoutY="188.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="191.0" layoutY="245.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="191.0" layoutY="297.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="191.0" layoutY="349.0" mnemonicParsing="false" text="Button" />
+      <MenuButton layoutX="414.0" layoutY="60.0" mnemonicParsing="false" text="Waiting List">
+        <items>
+          <MenuItem mnemonicParsing="false" />
+          <MenuItem mnemonicParsing="false" />
+        </items>
+      </MenuButton>
+      <Label layoutX="266.0" layoutY="300.0" text="Customer Name" />
+      <TextField editable="false" layoutX="365.0" layoutY="296.0" prefHeight="26.0" prefWidth="223.0" />
+      <TextField editable="false" layoutX="411.0" layoutY="348.0" prefHeight="26.0" prefWidth="177.0" />
+      <Label layoutX="266.0" layoutY="352.0" text="Burger Amount Ordered" />
+   </children>
+</AnchorPane>
